@@ -1,0 +1,87 @@
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2 rem;
+  font-weight: 400;
+}
+
+.coloredSection {
+  background: rgb(238,66,102);
+background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%, rgba(64,98,187,1) 66%, rgba(89,195,195,1) 100%);
+  color: white;
+}
+
+.whiteSection {
+  background-color: white;
+  color: black;
+}
+
+.big-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2 rem;
+  font-weight: 400;
+}
+
+.title-image {
+  width: 60%;
+  /* right: 30%; */
+}
+
+.h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2 rem;
+  font-weight: 700;
+}
+
+.p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+
+.sign-up-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#aboutUsSection {
+  text-align: center;
+  padding: 100px;
+}
+
+#differentCampsSection {
+  text-align: center;
+  padding: 100px;
+}
+
+#signUpSection {
+  text-align: center;
+  padding: 100px;
+}
+
+#contactUsSection {
+  text-align: center;
+  padding: 100px;
+}
+
+#footerSection {
+  text-align: center;
+  padding: 100px;
+}
