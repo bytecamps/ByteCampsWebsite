@@ -62,10 +62,16 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#differentCampsSection">Different Summer Camps & Pricing</a>
+                <a class="nav-link" href="#differentCampsSection">Camps & Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#studentWorkSection">Student Work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#signUpSection">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#FAQSection">FAQ</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contactUsSection">Contact Us</a>
@@ -160,12 +166,56 @@
       </div>
     </section>
 
-    <section id="signUpSection" class="whiteSection">
+    <section id="studentWorkSection" class="whiteSection">
+      <h2>Follow us on Instagram to see student work!</h2>
+      <div id="InstagramFeedDiv" class="instagram_feed"></div>
+      <script src="dist/InstagramFeed.min.js"></script>
+      <script>
+          var screenWidth = screen.width
+          console.log("Screen width", screenWidth)
+          if (screenWidth <= 850){
+            items_row = 2
+          }
+          else {
+            items_row = 4
+          }
+          (function(){
+              new InstagramFeed({
+                  'username': 'bytecamps',
+                  'container': document.getElementById("InstagramFeedDiv"),
+                  'display_profile': true,
+                  'display_biography': false,
+                  'display_gallery': true,
+                  'callback': null,
+                  'styling': true,
+                  'items': 12,
+                  'items_per_row': items_row,
+                  'margin': 1
+              });
+          })();
+      </script>
+    </section>
+
+    <section id="signUpSection" class="coloredSection">
       <div class="container-fluid">
         <h2>Sign Up!</h2>
         <p>Fill out this form to sign up for a camp.</p>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScx9K7cbGghB0o-ibDhx561TqhoH8A-4PmnhFgkdPJ9hEAJZQ/viewform?embedded=true" width="100%" height="1431" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
+    </section>
+
+    <section id="FAQSection" class="whiteSection">
+      <h2 id="extra-spacing-header">Frequently Asked Questions</h2>
+      <h4 id="extra-spacing">Do you also offer tutoring?</h4>
+      <p id="extra-spacing-header">Yes! We also offer tutoring. Just send us an email and we can figure something out.</p>
+      <h4 id="extra-spacing">Do I need a computer/iPad? If so, what kind?</h4>
+      <p id="extra-spacing-header">What device you need depends on the camp. For the Python or Web Development camp, any computer is fine (both Windows & Apple). For the iOS App Development camp, you will need a macbook (no windows computers). Lastly, for the Procreate camp, you need an iPad with the app Procreate installed.</p>
+      <h4 id="extra-spacing">How many students are in a camp?</h4>
+      <p id="extra-spacing-header">We have a maximum of three of four students per instructor.</p>
+      <h4 id="extra-spacing">Do I need any programming experience for a programming camp?</h4>
+      <p id="extra-spacing-header">No, you can get started without any programming experience. The camp we would recommend to get started would be the Python camp, which teaches you everything you have to know to get started. The Web Development camp would be ideal after that (but can also be done with no/minimal experience). Lastly, the iOS App Development camp requires an understanding of programming.</p>
+      <h4 id="extra-spacing">Do I need any experience with Procreate for the Procreate camp?</h4>
+      <p>Nope! You can take the camp with no experience, we will teach you all the techniques.</p>
     </section>
 
     <section id="contactUsSection" class="coloredSection">

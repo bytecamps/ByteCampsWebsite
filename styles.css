@@ -2,6 +2,11 @@
   padding: 7% 15%;
 }
 
+.instagram_feed {
+  overflow: hidden;
+  padding-top: 3%;
+}
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -50,6 +55,12 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   font-weight: 700;
 }
 
+.h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8 rem;
+  font-weight: 700;
+}
+
 .p {
   font-family: 'Roboto', sans-serif;
   font-size: 0.5rem;
@@ -59,6 +70,14 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
 .sign-up-button {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#extra-spacing-header {
+  margin-bottom: 3%
+}
+
+#extra-spacing {
+  margin-bottom: 2%
 }
 
 #aboutUsSection {
@@ -71,7 +90,17 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   padding: 100px;
 }
 
+#studentWorkSection {
+  text-align: center;
+  padding: 100px;
+}
+
 #signUpSection {
+  text-align: center;
+  padding: 100px;
+}
+
+#FAQSection {
   text-align: center;
   padding: 100px;
 }
@@ -92,6 +121,10 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   }
 
   #differentCampsSection {
+    padding: 5px;
+  }
+
+  #studentWorkSection {
     padding: 5px;
   }
 }
