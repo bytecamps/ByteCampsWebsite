@@ -73,11 +73,11 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
 }
 
 #extra-spacing-header {
-  margin-bottom: 3%
+  margin-bottom: 6%
 }
 
 #extra-spacing {
-  margin-bottom: 2%
+  margin-bottom: 3%
 }
 
 #aboutUsSection {
@@ -115,16 +115,25 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   padding: 100px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
   #signUpSection {
     padding: 5px;
   }
 
   #differentCampsSection {
     padding: 5px;
+    text-align: center;
   }
 
   #studentWorkSection {
-    padding: 5px;
+    padding: 5%;
+  }
+
+  #FAQSection {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }
