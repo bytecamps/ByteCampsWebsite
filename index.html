@@ -52,6 +52,7 @@
     <!-- First Section - title + navbar -->
     <section id="titleSection" class="coloredSection">
       <div class="container-fluid">
+
         <!--Navbar-->
         <nav class="navbar navbar-expand-md navbar-dark">
           <a class="navbar-brand" href="">ByteCamps</a>
@@ -67,14 +68,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="#studentWorkSection">Student Work</a>
               </li>
+              <li class=
               <li class="nav-item">
-                <a class="nav-link" href="#signUpSection">Sign Up</a>
+                <a class="nav-link" href="#reviewsSection">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#FAQSection">FAQ</a>
+                <a class="nav-link" href="#signUpSection">Sign up</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contactUsSection">Contact Us</a>
+                <a class="nav-link" href="#contactUsSection">Contact us</a>
               </li>
             </ul>
           </div>
@@ -102,11 +104,16 @@
     </section>
 
     <section id="differentCampsSection" class="coloredSection">
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>Check out our new camp!</strong> The Junior Camp introduces kids aged 7-10 to programming using Scratch & Python
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
             <h2>Python Camp</h2>
-            <p>Mon-Fri: 9AM - 12:30PM PT</p>
             <p>Target audience: kids 8-15 years old</p>
             <p>During this camp you will learn what Python is and how to program with it! No programming experience is required.</p>
             <p>You will learn about programming concepts like variables, loops, if statements, functions, lists, etc. We will dive into turtle and have a competition on who can make the best art! Throughout the week, we will do projects to keep everybody engaged. We end with a final project that you can show everyody!</p>
@@ -118,7 +125,6 @@
           </div>
           <div class="carousel-item container-fluid">
             <h2>Web Development Camp</h2>
-            <p>Mon-Fri: 9AM - 12:30PM PT</p>
             <p>Target audience: kids 8-15 years old</p>
             <p>During this camp you will learn how to make your own websites using HTML, CSS, and Javascript. No programming experience is required!</p>
             <p>You will learn what HTML, CSS, and Javascript are and how to use them! You will also learn programming concepts like variables, loops, if statements, functions, lists, etc. We will even dive into the framework Bootstrap! Multiple websites will be made throughout the week and we end with a big final website!</p>
@@ -130,7 +136,6 @@
           </div>
           <div class="carousel-item container-fluid">
             <h2>iOS Development Camp</h2>
-            <p>Mon-Fri: 9AM - 12:30PM PT</p>
             <p>Target audience: kids 9-15 years old</p>
             <p>During this camp you will learn how to make your very own iOS apps using Apple's Swift and Xcode. No programming experience is required.</p>
             <p>You will learn what Swift and Xcode are. You will also learn about programming fundamentals like variables, loops, if statements, functions, lists, etc. Throughout the week, multiple apps will be built to show off! </p>
@@ -142,7 +147,6 @@
           </div>
           <div class="carousel-item container-fluid">
             <h2>Procreate Camp</h2>
-            <p>Mon-Fri: 9AM - 12:30PM PT</p>
             <p>Target audience: kids 8-13 years old</p>
             <p>Do you want to know how to use the app Procreate to draw? During this camp you will learn the ins and outs of Procreate. You do not have to be a star at art to make fun projects with this app.</p>
             <p>You will learn how to navigate Procreate. You will also learn about different brushes, layers, symmetry, liquidfication (marbling), etc. It will be combined with fun projects!</p>
@@ -151,6 +155,18 @@
               <li>An ipad</li>
               <li>the app Procreate (around ten dollars)</li>
               <li>Optional: Apple Pencil</li>
+            </ul>
+            <p>Pricing: $195 a week</p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>Junior Coding Camp w/ Scratch and Python</h2>
+            <p>Target audience: kids 7-10 years old</p>
+            <p>Do you want to get started with Programming? During this camp you will be introduced to programming using Scratch and Python.</p>
+            <p>We will use Scratch for the first half of the week and make some really nice (visual) projects! Then, we will move to Python and write our first lines of code!</p>
+            <p>Requirements: </p>
+            <ul>
+              <li>A computer</li>
+              <li>Some experience with Scratch is preferred</li>
             </ul>
             <p>Pricing: $195 a week</p>
           </div>
@@ -194,6 +210,63 @@
               });
           })();
       </script>
+    </section>
+
+    <section id="reviewsSection" class="coloredSection">
+      <div id="carouselIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2>"My daughter is interested in coding after this camp, it's really good to see her excited to learn more"</h2>
+            <h3> - Parent - </h3>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>"I really liked that it was a small group of people because we were able to get a lot of things done and not spend too much time on errors in the code."</h2>
+            <h3> - Student - </h3>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>Some numbers:</h2>
+            <h4>Student rating: <strong>9.6 out of 10</strong></h4>
+            <h4>Parent rating: <strong>10 out of 10.</strong></h4>
+            <br>
+            <h4><strong>All</strong> parents said their child became <strong>more interested in Programming/Procreate.</strong></h4>
+            <h4>Both parents and students said they <strong>would recommend</strong> the camp to someone else.</h4>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>"The small personal class size was great so she could get instant feedback on her questions and also the other student’s questions.  She was able to really understand the concepts and was excited to show us her app creations of the day.  She really enjoyed learning from you and your teaching style."</h2>
+            <h3> - Parent - </h3>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>I really liked that the camp was <strong>"personal and [that it had] a lot of activities"</strong></h2>
+            <h3> - Parent - </h3>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>"I liked how we could customize everything."</h2>
+            <h3> - Student - </h3>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>"For a first time coding experience, this camp achieved the objective."</h2>
+            <h3> - Parent - </h3>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2>"I liked all of the projects"</h2>
+            <h3> - Student - </h3>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="referSection" class="whiteSection">
+      <h2>Get a 2 hour long private lesson if you refer somebody and they sign up!</h2>
+      <br>
+      <h3>Or get it by signing up for a second camp!</h3>
     </section>
 
     <section id="signUpSection" class="coloredSection">
