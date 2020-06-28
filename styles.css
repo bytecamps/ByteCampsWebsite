@@ -45,8 +45,11 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
 }
 
 .title-image {
-  width: 60%;
-  /* right: 30%; */
+  width: 65%;
+
+  bottom: -135px;
+  position: absolute;
+  left: 50%;
 }
 
 .h2 {
@@ -125,6 +128,14 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   padding: 100px;
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 900px){
+
+  .title-image {
+    left: 60%;
+    bottom: -100px;
+  }
+}
+
 @media only screen and (max-width: 900px){
   #signUpSection {
     padding: 5px;
@@ -145,5 +156,11 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
     padding-bottom: 5%;
     padding-left: 4%;
     padding-right: 4%;
+  }
+
+  .title-image {
+    width: 50%;
+    left: 60%;
+    bottom: -60px;
   }
 }
