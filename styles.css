@@ -129,7 +129,6 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 900px){
-
   .title-image {
     left: 60%;
     bottom: -100px;
@@ -156,6 +155,18 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
     padding-bottom: 5%;
     padding-left: 4%;
     padding-right: 4%;
+  }
+
+  .review-text2 {
+    font-size: 18px;
+  }
+
+  .review-text3 {
+    font-size: 16px;
+  }
+
+  .review-text4 {
+    font-size: 14px;
   }
 
   .title-image {
