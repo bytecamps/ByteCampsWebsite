@@ -182,40 +182,67 @@
       </div>
     </section>
 
-    <section id="studentWorkSection" class="whiteSection">
-      <h2>Follow us on Instagram to see student work!</h2>
-      <div id="InstagramFeedDiv" class="instagram_feed"></div>
-      <script src="dist/InstagramFeed.min.js"></script>
-      <script>
-          var screenWidth = screen.width
-          console.log("Screen width", screenWidth)
-          if (screenWidth <= 850){
-            items_row = 2
-          }
-          else {
-            items_row = 4
-          }
-          (function(){
-              new InstagramFeed({
-                  'username': 'bytecamps',
-                  'container': document.getElementById("InstagramFeedDiv"),
-                  'display_profile': true,
-                  'display_biography': false,
-                  'display_gallery': true,
-                  'callback': null,
-                  'styling': true,
-                  'items': 12,
-                  'items_per_row': items_row,
-                  'margin': 1
-              });
-          })();
-      </script>
+    <section id="signUpSection" class="whiteSection">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pills-iOS-tab" data-toggle="pill" href="#pills-iOS" role="tab" aria-controls="pills-iOS" aria-selected="true">iOS App Development</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab" aria-controls="pills-web" aria-selected="false">Web Development</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-procreate-tab" data-toggle="pill" href="#pills-procreate" role="tab" aria-controls="pills-procreate" aria-selected="false">Procreate</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-python-tab" data-toggle="pill" href="#pills-python" role="tab" aria-controls="pills-python" aria-selected="false">Python</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-junior-tab" data-toggle="pill" href="#pills-junior" role="tab" aria-controls="pills-junior" aria-selected="false">Junior Coding</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-iOS" role="tabpanel" aria-labelledby="pills-iOS-tab">
+          <h2 style="padding-bottom: 20px">iOS Development</h2>
+          <p>This camp currently has no more camps this summer</p>
+          <p style="padding-bottom: 20px">Instead, sign up for a private lesson!</p>
+          <a class="typeform-share button" href="https://bytecamps.typeform.com/to/w24a3gZa#type=iOS App Development" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#5CB85C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+        <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+          <h1 style="padding-bottom: 20px">Web Development</h1>
+          <p>This camp currently has no more camps this summer</p>
+          <p style="padding-bottom: 20px">Instead, sign up for a private lesson!</p>
+          <a class="typeform-share button" href="https://bytecamps.typeform.com/to/w24a3gZa#type=Web Development" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#5CB85C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+        <div class="tab-pane fade" id="pills-procreate" role="tabpanel" aria-labelledby="pills-procreate-tab">
+          <h1 style="padding-bottom: 20px">Procreate</h1>
+          <p>Weeks available:</p>
+          <p style="padding-bottom: 20px">July 27th - July 31st (2pm - 5:30pm)</p>
+          <a class="typeform-share button" href="https://bytecamps.typeform.com/to/w24a3gZa#type=Procreate" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#5CB85C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+        <div class="tab-pane fade" id="pills-python" role="tabpanel" aria-labelledby="pills-python-tab">
+          <h1 style="padding-bottom: 20px">Python</h1>
+          <p>This camp currently has no more camps this summer</p>
+          <p style="padding-bottom: 20px">Instead, sign up for a private lesson!</p>
+          <a class="typeform-share button" href="https://bytecamps.typeform.com/to/w24a3gZa#type=Python" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#5CB85C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+        <div class="tab-pane fade" id="pills-junior" role="tabpanel" aria-labelledby="pills-junior-tab">
+          <h1 style="padding-bottom: 20px">Junior Coding</h1>
+          <p>Weeks available:</p>
+          <p style="padding-bottom: 20px">August 10th - August 14th (9am - 12pm)</p>
+          <a class="typeform-share button" href="https://bytecamps.typeform.com/to/w24a3gZa#type=Junior Coding" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#5CB85C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+      </div>
     </section>
 
     <section id="reviewsSection" class="coloredSection">
       <div id="carouselIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
+            <h2 class="review-text2">"It was very fun and I advanced very far in my coding. I do recommend this camp to anyone who is thinking about joining. Even if you do not find coding very interesting, you should do it, as I did not like coding before and found this camp very fun. My favorite part was either the game that I made at the end or the rock paper scissors app that I made during camp."</h2>
+            <h3 class="review-text3"> - Student - </h3>
+          </div>
+          <div class="carousel-item container-fluid">
             <h2 class="review-text2">"Definitely exceeded my daughter's expectations and the teacher was very knowledgable. She had used basic functions before the class but she compared her before-and-after art creations after the class and was amazed at how much more there was to learn about the program that she did not know.  Staff very flexible as well to provide camp when it was convenient for us.  Definitely made her interested in graphic arts for fun and for future use in school projects etc.,"</h2>
             <h3 class="review-text3"> - Parent - </h3>
           </div>
@@ -275,21 +302,44 @@
       </div>
     </section>
 
+<!--
     <section id="referSection" class="whiteSection">
       <h2>Get a 2 hour long private lesson if you refer somebody and they sign up!</h2>
       <br>
       <h3>Or get it by signing up for a second camp!</h3>
+    </section> -->
+
+    <section id="studentWorkSection" class="whiteSection">
+      <h2>Follow us on Instagram to see student work!</h2>
+      <div id="InstagramFeedDiv" class="instagram_feed"></div>
+      <script src="dist/InstagramFeed.min.js"></script>
+      <script>
+          var screenWidth = screen.width
+          console.log("Screen width", screenWidth)
+          if (screenWidth <= 850){
+            items_row = 2
+          }
+          else {
+            items_row = 4
+          }
+          (function(){
+              new InstagramFeed({
+                  'username': 'bytecamps',
+                  'container': document.getElementById("InstagramFeedDiv"),
+                  'display_profile': true,
+                  'display_biography': false,
+                  'display_gallery': true,
+                  'callback': null,
+                  'styling': true,
+                  'items': 12,
+                  'items_per_row': items_row,
+                  'margin': 1
+              });
+          })();
+      </script>
     </section>
 
-    <section id="signUpSection" class="coloredSection">
-      <div class="container-fluid">
-        <h2>Sign Up!</h2>
-        <p>Fill out this form to sign up for a camp.</p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScx9K7cbGghB0o-ibDhx561TqhoH8A-4PmnhFgkdPJ9hEAJZQ/viewform?embedded=true" width="100%" height="1431" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
-    </section>
-
-    <section id="FAQSection" class="whiteSection">
+    <section id="FAQSection" class="coloredSection">
       <h2 id="extra-spacing-header">Frequently Asked Questions</h2>
       <h4 id="extra-spacing">Do you also offer tutoring?</h4>
       <p id="extra-spacing-header">Yes! We also offer tutoring. Just send us an email and we can figure something out.</p>
@@ -303,13 +353,13 @@
       <p>Nope! You can take the camp with no experience, we will teach you all the techniques.</p>
     </section>
 
-    <section id="contactUsSection" class="coloredSection">
+    <section id="contactUsSection" class="whiteSection">
       <h1>Contact Us</h1>
       <p>Feel free to reach out to us by email!</p>
       <p>Our email address is bytecamps@gmail.com</p>
     </section>
 
-    <section id="footerSection" class="whiteSection">
+    <section id="footerSection" class="coloredSection">
       <p>@2020 Bytecamps</p>
       <p>Made with ❤ with HTML, CSS, Javascript, and Bootstrap.</p>
     </section>
