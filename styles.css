@@ -118,6 +118,10 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   padding: 100px;
 }
 
+#shopSection {
+  text-align: center;
+}
+
 #contactUsSection {
   text-align: center;
   padding: 100px;
@@ -173,7 +177,10 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
     color: white;
 }
 
-
+.typeform-widget {
+  height: 650px;
+  width: 100%
+}
 
 
 @media only screen and (max-width: 1200px) and (min-width: 900px){
@@ -226,5 +233,10 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
     width: 50%;
     left: 60%;
     bottom: -60px;
+  }
+
+  .typeform-widget {
+    height: 500px;
+    width: 100%
   }
 }
