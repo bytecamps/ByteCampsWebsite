@@ -103,6 +103,16 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   padding: 100px;
 }
 
+#mapSection {
+  text-align: center;
+  padding: 100px;
+}
+
+#birthdayPartySection {
+  text-align: center;
+  padding: 100px;
+}
+
 #referSection {
   text-align: center;
   padding: 100px;
