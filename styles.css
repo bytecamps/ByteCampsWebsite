@@ -7,11 +7,6 @@
   padding-top: 3%;
 }
 
-img.animated-gif{
-  width: 70%;
-  height: auto;
-}
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -197,6 +192,16 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   width: 100%
 }
 
+img.animated-gif1{
+  width: 70%;
+  height: auto;
+}
+
+img.animated-gif2{
+  width: 70%;
+  height: auto;
+}
+
 
 @media only screen and (max-width: 1200px) and (min-width: 900px){
   .title-image {
@@ -208,6 +213,16 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
 @media only screen and (max-width: 900px){
   #signUpSection {
     padding: 5px;
+  }
+
+  img.animated-gif1{
+    width: 90%;
+    height: auto;
+  }
+
+  img.animated-gif2{
+    width: 90%;
+    height: auto;
   }
 
   #differentCampsSection {
