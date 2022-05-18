@@ -247,6 +247,7 @@ img.animated-gif2{
   #aboutUsSection {
     padding: 8px;
     text-align: center;
+    align-items: center;
   }
 
   img.animated-gif1{
