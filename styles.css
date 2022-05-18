@@ -214,11 +214,28 @@ img.animated-gif2{
   height: auto;
 }
 
+@media only screen and (min-width: 1200px) {
+  #insta-comp {
+    display: block;
+  }
+
+  #insta-phone {
+    display: none !important;
+  }
+}
 
 @media only screen and (max-width: 1200px) and (min-width: 900px){
   .title-image {
     left: 60%;
     bottom: -100px;
+  }
+
+  #insta-comp {
+    display: block;
+  }
+
+  #insta-phone {
+    display: none !important;
   }
 }
 
@@ -290,7 +307,15 @@ img.animated-gif2{
     width: 100%
   }
 
-  .insta {
-    display: none;
+  #insta-comp {
+    display: none !important;
+  }
+
+  #insta-phone {
+    display: block;
+  }
+
+  .test {
+    color: blue;
   }
 }
