@@ -83,12 +83,6 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
   margin-bottom: 3%
 }
 
-#aboutUsSection {
-  text-align: center;
-  padding: 100px;
-  padding-bottom: 10px;
-}
-
 #partnersSection {
   text-align: center;
   padding: 100px;
@@ -152,6 +146,12 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
 #footerSection {
   text-align: center;
   padding: 100px;
+}
+
+#aboutUsSection {
+  text-align: center;
+  padding: 100px;
+  padding-bottom: 10px;
 }
 
 #pills-iOS {
@@ -245,7 +245,8 @@ img.animated-gif2{
   }
 
   #aboutUsSection {
-    padding: 5px;
+    padding: 8px;
+    text-align: center;
   }
 
   img.animated-gif1{
