@@ -85,8 +85,8 @@ background: linear-gradient(114deg, rgba(238,66,102,1) 0%, rgba(82,72,156,1) 33%
 
 #partnersSection {
   text-align: center;
-  padding: 100px;
-  padding-top: 0px;
+  padding: 20px;
+  padding-top: 100px;
 }
 
 .table {
